@@ -7,17 +7,9 @@ Buyurtmani tasdiqlash funksiyasi bo‘ladi.
 ⚠️⚠️BOTNI ISHGA TUSHURISHDNA OLDIN TERMINALGA "PIP INSTALL TELEBOT " TELEBOTMI YUKLAB OLISH SHART  ⚠️⚠️
 Bunday Botni Ishlatish uchun Nimalar Kerak?
 1. Bot tayyor bo‘lishi
-(Sen aytdingki, bot tayyor — zo‘r!)
 2. Telegram Bot Tokeni
-(Botni yaratganda BotFather’dan olingan maxfiy kalit.)
 3. Server yoki Hosting
-Bot doim onlayn ishlashi uchun unga server kerak.
-Masalan:
-Heroku
-Vercel
-Render
-Yoki VPS/Hosting
-4. Bazaga ulanish
+.4. Bazaga ulanish
 Buyurtmalar va foydalanuvchilar ma'lumotini saqlash uchun:
 MySQL
 PostgreSQL
