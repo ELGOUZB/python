@@ -1,33 +1,28 @@
 Botni Ishlatish Uchun Kerakli Narsalar
-Bot Tayyor Bo'lishi:
-Telegram Bot Tokeni:
-
-Botni yaratish uchun BotFather orqali Telegram'da bot tokenini olishingiz kerak.
-Server yoki Hosting:
-
-Botni joylashtirish uchun server yoki hosting xizmatlari (masalan, DigitalOcean, Heroku, Render va boshqalar) kerak bo'ladi.
-Ma'lumotlar Bazasi:
-
-Foydalanuvchilar va buyurtmalar ma'lumotini saqlash uchun quyidagi ma'lumotlar bazalaridan birini tanlashingiz mumkin:
-MySQL: MySQL rasmiy sayti
-PostgreSQL: PostgreSQL rasmiy sayti
-MongoDB: MongoDB rasmiy sayti
-To'lov Tizimlari Integratsiyasi (ixtiyoriy):
-
-Agar foydalanuvchi karta yoki Click orqali to'lamoqchi bo'lsa, quyidagi API'larni ulashingiz kerak:
+1. Bot Tayyor Bo'lishi
+Bot dasturi to'liq tayyor va sinovdan o'tgan bo'lishi kerak.
+2. Telegram Bot Tokeni
+Bot yaratish uchun BotFather orqali token oling.
+3. Server yoki Hosting
+Botni joylashtirish uchun server yoki hosting xizmatlari (DigitalOcean, Heroku, Render) kerak.
+4. Ma'lumotlar Bazasi
+Foydalanuvchilar va buyurtmalar ma'lumotini saqlash uchun:
+MySQL
+PostgreSQL
+MongoDB
+5. To'lov Tizimlari Integratsiyasi (ixtiyoriy)
+Foydalanuvchilar uchun to'lov usullari:
 Click: Click rasmiy sayti
 Payme: Payme rasmiy sayti
-Menyu va Buyurtmalarni Boshqarish Paneli:
-
-Admin uchun alohida menyu bo'lishi mumkin. Bu menyuda quyidagi funksiyalar bo'lishi kerak:
+6. Admin Panel
+Admin uchun alohida menyu:
 Buyurtmalarni ko'rish.
 Yangi ovqatlar qo'shish.
-Foydalanuvchilar Uchun Botdan Foydalanish Jarayoni:
-
-Botga Start Buyruğini Berish: Foydalanuvchi /start buyruğini beradi.
-Menyudan Ovqat Tanlash: Foydalanuvchi menyudan ovqat tanlaydi.
-Savatchaga Qo'shish: Tanlangan ovqatni savatchaga qo'shadi.
-Yekazib Berish Manzilini va Telefon Raqamini Kiritish: Foydalanuvchi manzil va telefon raqamini kiritadi.
-To'lov Usulini Tanlash: Foydalanuvchi to'lov usulini tanlaydi.
-Buyurtmani Tasdiqlash: Foydalanuvchi buyurtmani tasdiqlaydi.
-Buyurtma Yetkazib Beruvchilarga Yetkaziladi: Buyurtma yetkazib beruvchilarga yetkaziladi.
+7. Foydalanuvchilar Uchun Botdan Foydalanish Jarayoni
+Start Buyruğini Berish: /start
+Ovqat Tanlash: Menyudan ovqat tanlash.
+Savatchaga Qo'shish: Tanlangan ovqatni savatchaga qo'shish.
+Manzil va Telefon Raqamini Kiritish: Yekazib berish manzilini va telefon raqamini kiritish.
+To'lov Usulini Tanlash: To'lov usulini tanlash.
+Buyurtmani Tasdiqlash: Buyurtmani tasdiqlash.
+Yetkazib Berish: Buyurtma yetkazib beruvchilarga yetkaziladi.
