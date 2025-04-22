@@ -1,28 +1,17 @@
-Botni Ishlatish Uchun Kerakli Narsalar
-1. Bot Tayyor Bo'lishi
-Bot dasturi to'liq tayyor va sinovdan o'tgan bo'lishi kerak.
-2. Telegram Bot Tokeni
-Bot yaratish uchun BotFather orqali token oling.
-3. Server yoki Hosting
-Botni joylashtirish uchun server yoki hosting xizmatlari (DigitalOcean, Heroku, Render) kerak.
-4. Ma'lumotlar Bazasi
-Foydalanuvchilar va buyurtmalar ma'lumotini saqlash uchun:
-MySQL
-PostgreSQL
-MongoDB
-5. To'lov Tizimlari Integratsiyasi (ixtiyoriy)
-Foydalanuvchilar uchun to'lov usullari:
-Click: Click rasmiy sayti
-Payme: Payme rasmiy sayti
-6. Admin Panel
-Admin uchun alohida menyu:
-Buyurtmalarni ko'rish.
-Yangi ovqatlar qo'shish.
-7. Foydalanuvchilar Uchun Botdan Foydalanish Jarayoni
-Start Buyruğini Berish: /start
-Ovqat Tanlash: Menyudan ovqat tanlash.
-Savatchaga Qo'shish: Tanlangan ovqatni savatchaga qo'shish.
-Manzil va Telefon Raqamini Kiritish: Yekazib berish manzilini va telefon raqamini kiritish.
-To'lov Usulini Tanlash: To'lov usulini tanlash.
-Buyurtmani Tasdiqlash: Buyurtmani tasdiqlash.
-Yetkazib Berish: Buyurtma yetkazib beruvchilarga yetkaziladi.
+Botni Ishlatish Jarayoni
+Foydalanuvchilar botdan qanday foydalanishini quyidagi bosqichlar orqali tushuntirish mumkin:
+
+1. Botga Kirish
+Start Buyruğini Berish: Foydalanuvchi botni ochganda, /start buyruğini berishi kerak. Bu buyruq botni ishga tushiradi va foydalanuvchiga menyu ko'rsatiladi.
+2. Ovqat Tanlash
+Menyudan Ovqat Tanlash: Foydalanuvchi botda ko'rsatilgan menyudan o'ziga yoqadigan ovqatni tanlaydi. Bu jarayonda turli taomlar, narxlar va tavsiflar ko'rsatiladi.
+3. Savatchaga Qo'shish
+Savatchaga Qo'shish: Tanlangan ovqatni savatchaga qo'shish uchun foydalanuvchi mos tugmani bosishi kerak. Bu orqali tanlangan ovqatlar ro'yxati yaratiladi.
+4. Yekazib Berish Manzilini Kiritish
+Manzil va Telefon Raqamini Kiritish: Foydalanuvchi ovqatni qayerga yetkazish kerakligini va telefon raqamini kiritishi lozim. Bu ma'lumotlar yetkazib berish jarayonida kerak bo'ladi.
+5. To'lov Usulini Tanlash
+To'lov Usulini Tanlash: Foydalanuvchi to'lov usulini tanlaydi. Bu naqd pul, karta yoki to'lov tizimlari (Click, Payme) orqali bo'lishi mumkin.
+6. Buyurtmani Tasdiqlash
+Buyurtmani Tasdiqlash: Barcha ma'lumotlar kiritilgandan so'ng, foydalanuvchi buyurtmani tasdiqlashi kerak. Bu jarayon orqali buyurtma rasmiylashtiriladi.
+7. Buyurtma Yetkazilishi
+Buyurtma Yetkazib Berish: Tasdiqlangan buyurtma yetkazib beruvchilarga yuboriladi va foydalanuvchi belgilangan manzilga yetkaziladi.
