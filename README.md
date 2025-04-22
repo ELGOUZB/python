@@ -1,40 +1,33 @@
+Botni Ishlatish Uchun Kerakli Narsalar
+Bot Tayyor Bo'lishi:
+Telegram Bot Tokeni:
 
-Taomlr menyusi (rasm va narx bilan)
-Buyurtmani tanlash (ovqat va ichimlik qo‘shish)
-Yetkazib berish uchun manzil kiritish
-To‘lov usulini tanlash (naqd, karta, Click, Payme)
-Buyurtmani tasdiqlash funksiyasi bo‘ladi.
-⚠️⚠️BOTNI ISHGA TUSHURISHDNA OLDIN TERMINALGA "PIP INSTALL TELEBOT " TELEBOTMI YUKLAB OLISH SHART  ⚠️⚠️
-Bunday Botni Ishlatish uchun Nimalar Kerak?
-1. Bot tayyor bo‘lishi
-2. Telegram Bot Tokeni
-3. Server yoki Hosting
-.4. Bazaga ulanish
-Buyurtmalar va foydalanuvchilar ma'lumotini saqlash uchun:
-MySQL
-PostgreSQL
-MongoDB
-5. To‘lov tizimlari integratsiyasi (ixtiyoriy)
-Agar foydalanuvchi karta yoki Click orqali to‘lamoqchi bo‘lsa:
-Click, Payme API’lari ulanishi kerak.
-6. Menyu va buyurtmalarni boshqarish paneli
-Admin uchun alohida menyu bo‘lishi mumkin:
-Buyurtmalarni ko‘rish
-Yangi ovqatlar qo‘shish
-Yetkazi berishni boshqarish
-Foydalanuvchi uchun Botdan foydalanish jarayoni:
-1. Botga start buyrug‘ini beradi (/start)
-2. Menyudan ovqat tanlaydi
-3. Savatchaga qo‘shadi
-4. Yekazib berish manzilini va telefon raqamini kiritadi
-5. To‘lov usulini tanlaydi
-6. Buyurtmani tasdiqlaydi
+Botni yaratish uchun BotFather orqali Telegram'da bot tokenini olishingiz kerak.
+Server yoki Hosting:
 
-7. Buyurtmasi yetkazib beruvchilarga yetkaziladi
+Botni joylashtirish uchun server yoki hosting xizmatlari (masalan, DigitalOcean, Heroku, Render va boshqalar) kerak bo'ladi.
+Ma'lumotlar Bazasi:
 
----
+Foydalanuvchilar va buyurtmalar ma'lumotini saqlash uchun quyidagi ma'lumotlar bazalaridan birini tanlashingiz mumkin:
+MySQL: MySQL rasmiy sayti
+PostgreSQL: PostgreSQL rasmiy sayti
+MongoDB: MongoDB rasmiy sayti
+To'lov Tizimlari Integratsiyasi (ixtiyoriy):
 
-Agar xohlasang, men yana real namunali ishlash tartibini yoki bot kodi qanday qurilganini ham yozib berishim mumkin. Xohlaysanmi?
-(Shu bilan birga, admin uchun qanday qulay tizim qilishni ham aytib o‘taman!)
+Agar foydalanuvchi karta yoki Click orqali to'lamoqchi bo'lsa, quyidagi API'larni ulashingiz kerak:
+Click: Click rasmiy sayti
+Payme: Payme rasmiy sayti
+Menyu va Buyurtmalarni Boshqarish Paneli:
 
-Senga davom ettirishni xohlaysanmi?
+Admin uchun alohida menyu bo'lishi mumkin. Bu menyuda quyidagi funksiyalar bo'lishi kerak:
+Buyurtmalarni ko'rish.
+Yangi ovqatlar qo'shish.
+Foydalanuvchilar Uchun Botdan Foydalanish Jarayoni:
+
+Botga Start Buyruğini Berish: Foydalanuvchi /start buyruğini beradi.
+Menyudan Ovqat Tanlash: Foydalanuvchi menyudan ovqat tanlaydi.
+Savatchaga Qo'shish: Tanlangan ovqatni savatchaga qo'shadi.
+Yekazib Berish Manzilini va Telefon Raqamini Kiritish: Foydalanuvchi manzil va telefon raqamini kiritadi.
+To'lov Usulini Tanlash: Foydalanuvchi to'lov usulini tanlaydi.
+Buyurtmani Tasdiqlash: Foydalanuvchi buyurtmani tasdiqlaydi.
+Buyurtma Yetkazib Beruvchilarga Yetkaziladi: Buyurtma yetkazib beruvchilarga yetkaziladi.
